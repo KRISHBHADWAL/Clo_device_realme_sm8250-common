@@ -84,7 +84,7 @@ BOARD_KERNEL_CMDLINE := \
     service_locator.enable=1 \
     swiotlb=2048
 
-KERNEL_CUSTOM_LLVM := true
+KERNEL_CUSTOM_LLVM := false
 
 BOARD_KERNEL_IMAGE_NAME := Image
 KERNEL_DEFCONFIG := vendor/sm8250_defconfig
